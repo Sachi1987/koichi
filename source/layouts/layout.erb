@@ -6,12 +6,24 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title %></title>
+    <title>西東京市のコピーライター齊藤浩一</title>
+    <meta name="description" content="コピーライター歴40年。会社案内やホームページに掲げられている企業理念やビジョンを踏まえて現場においてはどうしたらよいかを、コピーライターの視点や感性により共感できる言葉で表現するお手伝いをしています。">
+    <meta name= “keywords” content="コピーライター,西東京市,斉藤浩一,インタースピリッツ,intersprits">
     <%= stylesheet_link_tag "application" %>
     <%= javascript_include_tag "application" %>
-    <%= favicon_tag 'images/favicon.png' %>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- fontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- fabicon -->
+    <link rel="shortcut icon" href="./images/favicon.ico">
   </head>
   <body>
+    <%= partial "layouts/navbar" %>
     <%= yield %>
+    <!-- Render main footer. -->
+    <%= partial "layouts/footer" %>
   </body>
 </html>
