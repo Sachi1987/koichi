@@ -1,29 +1,35 @@
+#logo {
+  text-decoration: none;
+  color: $orange;
+  font-size: 25px
+}
+
+#logo:hover{
+　text-decoration: none;
+}
+
 /* Main navbar */
 .navbar-wagon {
   transition: all 0.3s ease;
-  height: 70px;
+  height: 80px;
   padding: 0px 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: rgba(0,0,0,0.5);
+  background: white;
   font-weight: 500;
   font-size: 22px;
   font-weight: bold;
-  opacity: 0.7;
-}
-
-.logo:hover{
-　text-decoration: none;
+  // opacity: 0.9;
 }
 
 /* Right section */
-.navbar-wagon-right {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  color: #FFFFFF;;
-}
+// .navbar-wagon-right {
+  // display: flex;
+  // align-items: center;
+  // justify-content: space-between;
+  // color: orange;
+// }
 
 /* Basic navbar item */
 .navbar-wagon-item {
@@ -39,13 +45,13 @@
   padding: 30px;
 }
 
-.navbar-wagon-link:hover {
-  background-color: black;
-  color: white;
-}
+// .navbar-wagon-link:hover {
+//   background-color: black;
+//   color: white;
+// }
 
 .fa-bars {
-  color: white;
+  color: black;
 }
 
 /* Dropdown menu */

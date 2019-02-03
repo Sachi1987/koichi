@@ -1,6 +1,6 @@
 @media print, screen and (min-width: 640px) {
   .footer {
-    background: #554F48;
+    background: #A37E59;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,7 +25,7 @@
 /* スマートフォン用CSS */
 @media screen and (max-width: 640px) {
   .footer {
-    background: #554F48;
+    background: #A37E59;
     align-items: center;
     height: 140px;
     padding: 0px 50px;
