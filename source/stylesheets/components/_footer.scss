@@ -1,3 +1,12 @@
+.footer {
+  color: white;
+}
+
+.words {
+  font-size:17px;
+}
+
+
 @media print, screen and (min-width: 640px) {
   .footer {
     background: #A37E59;
@@ -27,8 +36,8 @@
   .footer {
     background: #A37E59;
     align-items: center;
-    height: 140px;
-    padding: 0px 50px;
+    height: 200px;
+    padding: 17px 50px;
     color: #FFFFFF;
   }
   .left {
@@ -50,3 +59,11 @@
   }
 }
 
+@media only screen and (min-width: 481px){
+ .words br{
+  display:none;
+ }
+ .copy br {
+  display: none;
+ }
+}

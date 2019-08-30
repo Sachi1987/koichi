@@ -1,0 +1,19 @@
+li {
+  display: inline-block;
+  vertical-align: middle;
+  width: 16.6%;
+  font-size: 15px;
+}
+
+li > a {
+  text-align: center;
+  display: table;
+  width: 100%;
+  padding: 10px;
+}
+
+li > a span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
